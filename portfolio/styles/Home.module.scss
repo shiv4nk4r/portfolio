@@ -1,0 +1,73 @@
+.homeSection {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: space-around;
+
+  .imageDiv {
+    margin: 0px 10px;
+    img {
+      border-radius: 100%;
+    }
+  }
+
+  .aboutMe {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0px 10px;
+    max-width: 40vw;
+    .Tags {
+      padding: 5px 0px;
+      display: flex;
+      justify-content: flex-end;
+      ul {
+        display: flex;
+        list-style: none;
+        li {
+          font-weight: 600;
+          color: #0072b1;
+          padding: 0px 10px;
+
+          &:hover {
+            color: #3595ff;
+          }
+        }
+      }
+    }
+
+    .socialLinks {
+      display: flex;
+      justify-content: flex-end;
+      ul {
+        display: flex;
+        list-style: none;
+        li {
+          padding: 0px 10px;
+
+          &:hover {
+            color: #3595ff;
+          }
+        }
+      }
+    }
+  }
+}
+
+.statsForNerds {
+  min-height: 30vh;
+  background: #e8e8e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .wrapper {
+    width: 80%;
+
+    .Title {
+      font-size: 2rem;
+      font-weight: 500;
+    }
+  }
+}
